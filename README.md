@@ -1,5 +1,6 @@
 
 **Preview :**
+
 ![Preview](https://cdn.discordapp.com/attachments/995613566965133322/1014238619357155348/unknown.png)
 
 ### How download it ?
@@ -11,7 +12,7 @@ then just click on Source-code.zip to download Or Scroll Down And Remix It On Gl
 ## Hosting
 > ⚠  This bot needs a [Node.js v16+](https://nodejs.org/en/blog/release/v16.0.0/)  runtime to function since discord.js version 13 requires said node version to function.
 
-### [Remix On Glitch](https://glitch.com/edit/#!/remix/wild-life-studio-discord-welcomer)
+### [Remix On Glitch](https://glitch.com/edit/#!/import/github/pooriyaYT1374/discord-welcomer-bot)
 
 
 
