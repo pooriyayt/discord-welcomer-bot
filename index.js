@@ -25,8 +25,8 @@ const client = new Client({
 client.on("ready", () => {
     function status() {
 
-        const micneshin = client.guilds.cache.get("909002220119396362")  //ID bezar
-        const membercount = client.guilds.cache.get("909002220119396362")
+        const micneshin = client.guilds.cache.get("ServerID Here")  
+        const membercount = client.guilds.cache.get("ServerID Here")
         const voiceChannels = micneshin.channels.cache.filter(c => c.type === 'voice');
         let count = 0;
 
