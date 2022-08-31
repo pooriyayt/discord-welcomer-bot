@@ -34,6 +34,8 @@ then just click on Source-code.zip to download. Or You Can [Remix It On Glitch](
 
 > 4- `background`
 
+### **How To Run It?**
+> `Node index.js`
 
 ## Hosting
 > ⚠  This bot needs a [Node.js v16+](https://nodejs.org/en/blog/release/v16.0.0/)  runtime to function since discord.js version 13 requires said node version to function.
