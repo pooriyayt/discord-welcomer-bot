@@ -5,7 +5,7 @@
 
 ### How download it ?
 For use, you need go to __Releases__ Section and click on last version
-then just click on Source-code.zip to download. Or You Can [Remix It On Glitch](https://glitch.com/edit/#!/import/github/pooriyaYT1374/discord-welcomer-bot)
+then just click on Source-code.zip to download. Or You Can [Remix It On Glitch](https://glitch.com/edit/#!/import/github/pooriyaYT1374/discord-welcomer-bot)(Recommended)
 
 
 **A discord welcomer bot developed in discord.js v13 that is very simple to use and comes with code and deployment instructions!**
