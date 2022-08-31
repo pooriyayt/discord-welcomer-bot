@@ -22,30 +22,6 @@ const client = new Client({
   });
   /* Client when detects a message 
   then execute the code */
-client.on("ready", () => {
-    function status() {
-
-        const micneshin = client.guilds.cache.get("ServerID Here")  
-        const membercount = client.guilds.cache.get("ServerID Here")
-        const voiceChannels = micneshin.channels.cache.filter(c => c.type === 'voice');
-        let count = 0;
-
-        for (const [id, voiceChannel] of voiceChannels) count += voiceChannel.members.size;
-        let go = ["نشستم به در نگاه میکنم" , `ممبری که آه میکشد`,`🎤|Total Mic ${count}`,`👥|Members ${membercount.memberCount}`]
-        let plsc = ["PLAYING","COMPETING","WATCHING","LISTENING","WATCHING"]//STREAMING COMPETING PLAYING WATCHING LISTENING
-        let Power = Math.floor(Math.random() * go.length);
-        client.user.setActivity(go[Power], {type: plsc[Power]});
-      }; setInterval(status, 12000)
-    client.user.setPresence({
-        status: 'idle', 
-    })
-
-});
-
-
-
-
-
 
 
   client.on("messageCreate", async message => {
@@ -130,7 +106,7 @@ client.on('guildMemberAdd', async member => {
    let embed = new MessageEmbed()
  
     .setDescription(`${member.user}
-<a:w_:993033632069451780><a:e_:993033669042249759><a:l_:993033701762019339><a:c_:993033794196086804><a:o_:993033848868851805><a:m_:993033876668678194> To ${member.guild.name}`)
+Welcome To ${member.guild.name}`)
     .setColor('#00FFBE')
   
     .setImage("attachment://welcome.png")
